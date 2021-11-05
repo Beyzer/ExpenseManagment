@@ -1,0 +1,28 @@
+.FormContainer {
+    position: absolute;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+}
+
+.FlexContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15%;
+}
+
+@media (min-width: 300px) and (max-width: 650px) {
+    .FormContainer {
+        margin-top: 200px;
+        height: auto;
+    }
+}
+
+@media (min-width: 651px) and (max-width: 1600px) {
+    .FormContainer {
+        margin-top: 100px;
+        height: auto;
+    }
+}
