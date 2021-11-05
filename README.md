@@ -22,7 +22,7 @@ This is simple React application to expense managment and income. In this projec
 
 ```bash
 
-git clone https://github.com/AKoczanski/expense-managment.git
+git clone https://github.com/Beyzer/ExpenseManagment.git
 
 npm install
 
